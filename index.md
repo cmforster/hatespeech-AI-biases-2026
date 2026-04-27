@@ -1,9 +1,18 @@
 ----
-title: AI Biases 2026
+title: HateXplain - Decoding Biases in AI 2026
 ----
+Sciences Po Paris
+By: Carla Forster, Tomás Quintino Gouveia, Meire Klemmer, Aparna Rajesh, Naomi Schwarz
 
-# PUt title here
-Proabably put a summary here too
+# Executive summary
+Executive summary placeholder
 
 ## Chapters
- - [Naomi Grok](Naomi Grok.md)
+ - [Introduction]()
+ - [Methodology]()
+ - [What is hate speech?]()
+ - [Quantitative analysis]()
+ - [Qualitative analysis]()
+ - [Moderation approaches with AI hatespeech classification]()
+ - [Limitations]()
+ - [Conclusion]()
