@@ -7,10 +7,18 @@ Executive summary placeholder
 
 ## Chapters
 [Introduction]() 
+
 [Methodology]() 
+
 [What is hate speech?]() 
+
 [Quantitative analysis]() 
+
 [Qualitative analysis]() 
+
 [Moderation approaches with AI hatespeech classification]() 
+
 [Limitations]() 
+
 [Conclusion]() 
+
