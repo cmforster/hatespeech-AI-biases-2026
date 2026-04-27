@@ -1,4 +1,5 @@
-> Sciences Po Paris 
+> Sciences Po Paris
+
 > By: Carla Forster, Tomás Quintino Gouveia, Meire Klemmer, Aparna Rajesh, Naomi Schwarz
 
 # Executive summary
