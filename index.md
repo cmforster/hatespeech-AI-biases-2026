@@ -1,8 +1,9 @@
 ----
 title: HateXplain - Decoding Biases in AI 2026
 ----
-Sciences Po Paris
-By: Carla Forster, Tomás Quintino Gouveia, Meire Klemmer, Aparna Rajesh, Naomi Schwarz
+Sciences Po Paris 
+> [!Tip]
+> By: Carla Forster, Tomás Quintino Gouveia, Meire Klemmer, Aparna Rajesh, Naomi Schwarz
 
 # Executive summary
 Executive summary placeholder
