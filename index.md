@@ -6,18 +6,9 @@
 Executive summary placeholder
 
 ## Chapters
-[Introduction](pages/introduction.md)
-
-[Methodology](pages/methodology.md)
-
-[What is hate speech?](pages/hatespeech.md)
-
-[Quantitative analysis](pages/quantitative.md)
-
-[Qualitative analysis](pages/qualitative.md)
-
-[Moderation approaches with AI hatespeech classification](pages/moderation.md)
-
-[Limitations](pages/limitations.md)
-
-[Conclusion](pages/conclusion.md)
+{% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
+<ol>
+{% for c in chapters %}
+  <li><a href="{{ c.url | relative_url }}">{{ c.title }}</a></li>
+{% endfor %}
+</ol>
