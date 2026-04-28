@@ -1,0 +1,31 @@
+<!--We want to link to/from the next/previous page according to their "order" attribute-->
+{% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
+{% assign current_order = page.order %}
+
+{% assign prev = nil %}
+{% assign next = nil %}
+{% for c in chapters %}
+  {% if c.order < current_order %}
+    {% assign prev = c %}
+  {% endif %}
+  {% if c.order > current_order and next == nil %}
+    {% assign next = c %}
+  {% endif %}
+{% endfor %}
+
+<hr>
+<nav style="display: flex; justify-content: space-between; margin-top: 2em;">
+  <span>
+    {% if prev %}
+      <a href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
+    {% endif %}
+  </span>
+  <span>
+    <a href="{{ '/' | relative_url }}">Contents</a>
+  </span>
+  <span>
+    {% if next %}
+      <a href="{{ next.url | relative_url }}">{{ next.title }} →</a>
+    {% endif %}
+  </span>
+</nav>
