@@ -1,0 +1,15 @@
+{% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
+
+<aside class="sidebar">
+  <h3><a href="{{ '/' | relative_url }}">Contents</a></h3>
+  <ol>
+    {% for c in chapters %}
+      {% assign label = c.short_title | default: c.title %}
+      {% if c.url == page.url %}
+        <li class="current">{{ label }}</li>
+      {% else %}
+        <li><a href="{{ c.url | relative_url }}">{{ label }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</aside>
