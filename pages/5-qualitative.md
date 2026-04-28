@@ -42,20 +42,6 @@ Post GAB-208 inverts the pattern seen above, where the three MTurks classified i
 
 In sum, it is virtually impossible to classify hate speech neutrally, as personal sentiments influence the annotation and the perception of gravity. The examples point to a limitation in the HateXplain dataset that goes beyond individual annotation errors. When cultural context is both a necessary resource for accurate classification and unevenly distributed across annotator pools, inter-annotator agreement becomes a poor proxy for annotation validity.
 
-### Humour and Sarcasm
-
-A further limitation of transformer-based hate-speech classifiers is their difficulty interpreting humour, irony, and exaggeration in this context. Humour plays a significant role in understanding speech in general and online in particular, with specific forms of humor often pertinent to certain cultural or trend contexts significantly changing the meaning of statements. This is a feature of the literature on the subject, which finds that humor remains “a hard barrier for machines to decipher" as it relies on “intonation, irony, and contextual nuances” (Fahim et al., 2024, p.1). 
-
-Unlike with literal statements, humorous posts often include a mismatch between literal wording and the intent of a speaker, which creates an ambiguity text models struggle to resolve. This was very visible in our dataset where the analysis of statements that were ranked with great discrepancies between human and AI annotators frequently featured humour. Our group more often qualified humorous statements as normal or offensive where LLMs or AMT annotators tended towards hate speech more often. This suggests that the models still rely heavily on trigger words and sentiment signals rather than being able to decipher intent, and might overmoderate offensive humor online as hatespeech
-
-Examples include:
-
-“she say bre you fine i am like bitch break ya back for a stack hoe 🥶” post 307
-
-“i heard a black girl hit a security guard dyke wit the meanest “ shut up bitch ” i ever heard in atlanta i was cryin dog” 323
-
-“all jokes to the front niggas be queer” 331 recieved all 3 classifications
-
 
 ### When is something an insult? 
 
