@@ -36,9 +36,18 @@ Grok AI and Claude AI, without seeing the annotations of the group members or AM
 
 Through this approach, we hope to highlight the discrepancies in what hate speech can mean under different definitions and perceptions of offensiveness and how this can influence content moderation practices.
 
+### Supplementary annotation through LLMs
+
+In addition to the human annotations from AMT and the project group, it was decided to include two LLM-generated annotations. According to the Stanford Human-Centred Artificial Intelligence Centre (Gordon et al., 2021), AI models are the first line of defence against hate speech online. Facebook claims its models have identified and taken down 27 million hate-speech posts in the final three months of 2020 alone (ibid). The system was even faster than humans, flagging content in 97% of cases. However, the path between helpful content moderation and the limitation of freedom of speech is narrow. While automated speech police might perform exceptionally well on technical tests, they can cause considerable discontent among humans with their choices. The primary issue is that, particularly in today’s divisive context, evaluating more conventional AI tasks, such as spoken language recognition, is very different from the considerably more challenging task of identifying hate speech, harassment, or misinformation.
+
+While classifier models used to recognise hate speech are different types of AI to LLMs, using LLMs for annotation here is very interesting as they reveal the bias of their source data and training, which often includes a broad range of resources representing elements of general public opinion. Asking them to qualify what is hate speech may therefore give insight into the public perception of hate speech, which is in turn important for moderation practices and may inform platform understandings of appropriate moderation.
+
+
 ### Citations
+
 Geiger, R.S., Cope, D., Ip, J., Lotosh, M., Shah, A., Weng, J., Tang, R., 2021. “Garbage In, Garbage Out” Revisited: What Do Machine Learning Application Papers Report About Human-Labeled Training Data? Quantitative Science Studies 2, 795–827. https://doi.org/10.1162/qss_a_00144 
 
+Gordon, M., Zhou, K., Patel, K., Hashimoto, T. and Bernstein, M. (2021) 'The disagreement deconvolution: Bringing machine learning performance metrics in line with reality', Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems, Article 470. https://doi.org/10.1145/3411764.3445423
 
 
 {% include chapter-nav.html %}
