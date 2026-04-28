@@ -112,9 +112,22 @@ Both in-house annotators classified this post as Offensive and identified the ta
 Taken together, these examples expose a consistent feature of how political speech sits awkwardly within the offensive-to-hateful spectrum used in this dataset. The category of hate speech was built around protected demographic groups, intentionally leaving political ideology outside that boundary. The posts examined here show what happens when annotators encounter content that draws on the vocabulary of demographic hate (Nazis, neo-Nazis, "white people," "feminists") without explicitly directing that hate at a protected group. Grok responds primarily to the vocabulary, whereas Claude responds to the topic. The human annotators, including both the in-house annotators and the study annotators, respond inconsistently to both.
 
 
-
+### Citations
 
 Blad, E. (2018) 'Controversial discipline program not to blame for Parkland school shooting, commission finds', Education Week, 10 July. Available at: https://www.edweek.org/leadership/controversial-discipline-program-not-to-blame-for-parkland-school-shooting-commission-finds/2018/07 (Accessed: 26 April 2026).
+
+Conley, T.M. (2010). Toward a rhetoric of insult. Chicago: University of Chicago Press.
+
+Daly, H.L. (2018). On Insults. Journal of the American Philosophical Association, 4(4), pp.510–524. doi:https://doi.org/10.1017/apa.2018.29.
+
+Is AI Ready for Multimodal Hate Speech Detection? A Comprehensive Dataset and Benchmark Evaluation. (2026). arXiv. https://arxiv.org/html/2603.21686v1
+
+IYKYK (But AI Doesn't): Automated Content Moderation Does Not Capture Communities' Heterogeneous Attitudes Towards Reclaimed Language. (2026). arXiv. https://arxiv.org/html/2604.16654v2
+
+PsyPost. (2025). AI hate speech detectors show major inconsistencies. https://www.psypost.org/ai-hate-speech-detectors-show-major-inconsistencies-new-study-reveals/ 
+
+Popa-Wyatt, Mihaela. “Reclamation: Taking Back Control of Words.” Grazer Philosophische Studien, vol. 97, no. 1, 4 Mar. 2020, pp. 159–176, https://doi.org/10.1163/18756735-09701009. 
+‌Tedeschini, Luca, and Matteo Fasulo. “AIWizards at MULTIPRIDE: A Hierarchical Approach to Slur Reclamation Detection.” ArXiv.org, 2026, arxiv.org/abs/2602.12818. 
 
 Ross, J., Irani, L., Silberman, M. S., Zaldivar, A. and Tomlinson, B. (2010) 'Who are the crowdworkers? Shifting demographics in Mechanical Turk', CHI '10 Extended Abstracts on Human Factors in Computing Systems. New York: Association for Computing Machinery, pp. 2863–2872. https://doi.org/10.1145/1753846.1753873
 
