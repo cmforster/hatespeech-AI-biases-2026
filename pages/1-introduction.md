@@ -1,5 +1,7 @@
 ---
 title: Introduction
+short_title: Introduction
+permalink: /introduction/
 order: 1
 ---
 
