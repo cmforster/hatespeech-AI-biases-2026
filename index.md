@@ -3,6 +3,10 @@
 > By: Carla Forster, Tomás Quintino Gouveia, Meire Klemmer, Aparna Rajesh, Naomi Schwarz
 
 # Executive summary
+![Annotation differences Us&AMT]({{ '/assets/images/vis 2.png' | relative_url }})
+![Annotation differences Us&AMT]({{ '/assets/images/vis 3.png' | relative_url }})
+![Annotation differences Us&AMT]({{ '/assets/images/vis6.png' | relative_url }})
+
 Executive summary placeholder
 
 ## Chapters
