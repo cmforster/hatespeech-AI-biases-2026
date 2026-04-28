@@ -1,0 +1,61 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.layout-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 220px;
+  font-size: 0.9rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar h3 a {
+  color: #159957;
+  text-decoration: none;
+}
+
+.sidebar ol {
+  list-style: decimal;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 0.4rem 0;
+}
+
+.sidebar li.current {
+  font-weight: bold;
+  color: #159957;
+}
+
+.content-area {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .layout-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: 1 1 auto;
+    position: static;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+}
