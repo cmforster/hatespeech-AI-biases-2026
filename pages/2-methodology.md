@@ -4,8 +4,8 @@ short_title: Methodology
 permalink: /methodology/
 order: 2
 ---
-> Research question: How does dataset annotation influence hate speech classification and what does this imply for automated content moderation?
-> 
+> **Research question: How does dataset annotation influence hate speech classification and what does this imply for automated content moderation?**
+
 The analysis of the dataset was chosen specifically due to the importance of annotated datasets like this in the training of classifiers like BERT hatexplain is one. BERT is adapted to hate speech classification through supervised learning - comparing the model’s predictions to what is the ‘correct’ label provided in the dataset and successively correcting itself, so what is conceived as this ‘correct’ answer in the dataset is crucial to the classifications the model ultimately makes - “supervised machine learning [...] is only as good as the quality of the data” (Geiger et al., 2021).
 
 A 500-post subset was randomly selected from the original dataset for analysis. The analysis focuses specifically on the classification and the target community properties and not the rationales - while they were important in terms of the innovation of this dataset, this project takes an approach more focused on what hate speech is and what the effects of this definition may be in the context of AI detection of hate speech. Furthermore, capacity constrained us from analysing the rationales, which would have been a lot more text-and time-intensive and therefore prohibitive to choosing a sufficiently large subset of the dataset for the analysis to be meaningful.
