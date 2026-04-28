@@ -25,7 +25,7 @@ An analysis of the aggregate per class agreement between the annotators revealed
 
 ### Original dataset annotators (AMT) and group members
 
-![Annotation differences Us&AMT]({{ '/assets/images/vis 2.png.png' | relative_url }})
+![Annotation differences Us&AMT]({{ '/assets/images/vis 2.png' | relative_url }})
 
 Considering that the database used in this study contained the annotations from those contracted by Amazon Mechanical Turk, we can use this data to compare the annotations between the results displayed by our study’s annotations and those from Amazon Mechanical Turk, used in training BERT for hate speech detection.
 To ensure an accurate qualitative measurement, this analysis contained only those posts where the group annotations (H1 and H2) were in agreement, and those where the three Amazon Mechanical Turk annotations were in agreement. These two preconditions leaves the analysis with 167 posts. From the totals alone, we can determine that the Amazon Mechanical Turk annotations were far more likely to classify comments as ‘Hate Speech’ than the study group annotations (26,9% versus 4,8%).
