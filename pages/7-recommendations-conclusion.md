@@ -1,6 +1,6 @@
 ---
-title: Recommendations
-short_title: Recommendations
+title: Recommendations and Conclusion
+short_title: Recommendations and Conclusion
 permalink: /Recommendations/
 order: 7
 ---
