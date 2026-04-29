@@ -18,7 +18,7 @@ Overall, the fundamental ambiguity surrounding the definition of an insult as op
 
 ![Annotation differences Us&Grok]({{ '/assets/images/vis 3.png' | relative_url }})
 
-![Annotation differences Us&Claude]({{ '/assets/images/vis6.png' | relative_url }})
+![Annotation differences Us&Claude]({{ '/assets/images/vis 8.png' | relative_url }})
 
 
 
