@@ -26,6 +26,16 @@ Overall, the fundamental ambiguity surrounding the definition of an insult as op
 {% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
 <ol>
 {% for c in chapters %}
-  <li><a href="{{ c.url | relative_url }}">{{ c.title }}</a></li>
+  <li>
+    <a href="{{ c.url | relative_url }}">{{ c.title }}</a>
+    {% assign subs = site.pages | where: "parent", c.url | sort: "suborder" %}
+    {% if subs.size > 0 %}
+      <ol>
+        {% for s in subs %}
+          <li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </li>
 {% endfor %}
 </ol>
