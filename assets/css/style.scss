@@ -40,6 +40,10 @@
   color: #159957;
 }
 
+.sidebar ol ol {
+  list-style-type: lower-alpha;
+}
+
 .content-area {
   flex: 1;
   min-width: 0;
