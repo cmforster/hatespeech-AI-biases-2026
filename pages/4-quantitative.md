@@ -65,7 +65,7 @@ The most significant finding concerns the asymmetry in Hate Speech classificatio
 ## Between human group and LLMs
 
 ![Annotation differences Grok&Claude]({{ '/assets/images/vis 3.png' | relative_url }})
-![Annotation differences Grok&Claude]({{ '/assets/images/vis6.png' | relative_url }})
+![Annotation differences Grok&Claude]({{ '/assets/images/vis 8.png' | relative_url }})
 
 The two human annotators (H1 + H2)  from the research group have reached a consensus in 349 cases or 69,8% of the time. Comparing these consensual classifications with the two selected LLMs reveals substantial divergences, especially with Grok. In 38,4% of the cases, the human consensus and Grok’s classification overlap. Comparing the consensus with the other LLM Claude, the overlap reaches 53,9% with 188 cases.
 The cross-tabulation between Grok and the Group Consensus reveals the lowest alignment between all groups in this study. This becomes evident when considering that the Grok classified the majority of cases as Hate Speech, whereas the Group Consensus identified only 20 cases of Hate Speech. An agreement on the Hate Speech classification was reached in only 10,5% of cases. The alignment was Normal 94% of the time. The finding suggests that human judgment applies a considerably narrower definition of Hate Speech whilst making proportionally greater use of the Offensive and Normal categories. This notion is reinforced by the fact that, in 119 cases (73%), the research group interpreted most of the cases that Grok classified as Hate Speech as Offensive.
