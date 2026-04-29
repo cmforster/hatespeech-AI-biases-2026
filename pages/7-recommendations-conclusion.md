@@ -4,7 +4,7 @@ short_title: Recommendations and Conclusion
 permalink: /Recommendations/
 order: 7
 ---
-# Recommendations
+# Recommendations and Conclusion
 
 Datasets like the one used in this study will continue to be essential in training AI models in the goal of identifying hate speech and other harmful content on social media platforms, something that will only continue growing in importance in the coming years. However, with the detailed analysis of how humans and AI models classify different types of speech present in this study, and the implications of the differences that were observed, this study proceeds to provide recommendations to improve these datasets, and the way they are created, for their purpose, and hopefully positively influence the outcomes from them.
 
