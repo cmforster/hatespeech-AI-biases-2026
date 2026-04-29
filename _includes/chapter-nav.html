@@ -1,18 +1,28 @@
-<!--We want to link to/from the next/previous page according to their "order" attribute-->
+<!--Build a flat list of chapters with their subpages interleaved in order-->
 {% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
-{% assign current_order = page.order %}
+{% assign flat_pages = "" | split: "" %}
+{% for c in chapters %}
+  {% assign flat_pages = flat_pages | push: c %}
+  {% assign subs = site.pages | where: "parent", c.url | sort: "suborder" %}
+  {% for s in subs %}
+    {% assign flat_pages = flat_pages | push: s %}
+  {% endfor %}
+{% endfor %}
 
 {% assign prev = nil %}
 {% assign next = nil %}
-{% for c in chapters %}
-  {% if c.order < current_order %}
-    {% assign prev = c %}
+{% assign found_current = false %}
+{% for p in flat_pages %}
+  {% if found_current and next == nil %}
+    {% assign next = p %}
   {% endif %}
-  {% if c.order > current_order and next == nil %}
-    {% assign next = c %}
+  {% if p.url == page.url %}
+    {% assign found_current = true %}
   {% endif %}
+  {% unless found_current %}
+    {% assign prev = p %}
+  {% endunless %}
 {% endfor %}
-
 <hr>
 <nav style="display: flex; justify-content: space-between; margin-top: 2em;">
   <span>
