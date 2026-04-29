@@ -23,7 +23,6 @@ Overall, the fundamental ambiguity surrounding the definition of an insult as op
 
 
 ## Chapters
-## Chapters
 {% assign chapters = site.pages | where_exp: "p", "p.order" | sort: "order" %}
 <ol>
 {% for c in chapters %}
